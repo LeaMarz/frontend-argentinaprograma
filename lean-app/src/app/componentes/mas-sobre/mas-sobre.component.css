@@ -1,0 +1,28 @@
+
+.mas-sobre {
+    background-color: black;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 50px;
+    margin: 50px;
+    position:relative;
+    
+  }
+  
+  .mas-sobre h2 {
+    margin: 20px;
+    text-align: center;
+    color:#FFCDD2;
+  }
+  
+  .mas-sobre p {
+    line-height: var(--line-height);
+    color:#FFCDD2;
+  }
+  
+  .mas-sobre-img img{
+   
+    width: 150px;
+    
+  }
+  

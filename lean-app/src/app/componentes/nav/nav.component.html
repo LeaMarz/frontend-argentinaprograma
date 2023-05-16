@@ -1,0 +1,16 @@
+<!-- Navbar -->
+<nav>
+  <div><img  class="aplogo" src="../../../assets/images/aplogo.png" /></div>
+    <ul class="navegacion">
+      <div class="d-flex justify-content-end"></div>
+      <li><a href="#about" class="nav-link">Experiencias</a></li>
+      <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+      <li><a href="#edu" class="nav-link">Educación</a></li>
+      <li><a href="#proyectos" class="nav-link">Proyectos</a></li>           
+    </ul>
+    <div class="d-flex flex-column-reverse"></div>
+    <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INGRESO</button>
+    <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
+    
+    
+</nav>

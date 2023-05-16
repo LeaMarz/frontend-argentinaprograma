@@ -1,0 +1,64 @@
+{
+   "persona" : {
+      "apellido" : "Marzonetto",
+      "nombre" : "Leandro",
+      "acercaDe" : "Supervisor Acys Mendoza",
+      "urlFoto" : "./assets/images/fotoleandro.jpg",
+      "wallpaper" : "https://wallpapers.com/images/file/pink-floyd-4k-the-dark-side-of-the-moon-in-space-ikvj5edmo8re8ttf.jpg"
+
+   } ,
+   "experiencias" : [
+      {
+        "urlLogo": "assets/images/acys.Png",
+        "institucion" : "Acys Mendoza S.A.",
+        "cargo" : "Supervisor",
+        "fechaDesde" : "2014-03-10",
+        "fechaHasta" : null,
+        "web" : "https://www.bombasacys.com/"
+     },
+      {
+        "urlLogo": "/assets/images/logo-impsa-02.png",
+        "institucion" : "IMPSA",
+        "cargo" : "Proyectista",
+        "fechaDesde" : "2008-10-01",
+        "fechaHasta" : "2014-03-10",
+        "web" : "https://www.impsa.com/"
+     }
+   ] ,
+   "formacion" : [
+      {
+         "urlLogo": "./assets/images/etiec.jpg",
+          "institucion" : "Escuela Técnica Industrial Emilio Civit (ETIEC)",
+          "titulo" : "Técnico en Electricidad",
+          "fecha" : "2004",
+          "web" : "https://www.escuelaetiec.com/"
+       },
+       
+       {
+         "urlLogo": "./assets/images/UTN_logo.png",
+          "institucion" : "Universidad Tecnologica Nacional - FRM (UTN)",
+          "titulo" : "Programador jr Phyton  y Java",
+          "fecha" : "2022/2020",
+          "web" : "http://www.frm.utn.edu.ar/"
+       }
+   ]
+   ,
+   "habilidades" : [
+     
+      {  
+         "habilidad" : "java",
+         "nivel": "junior"
+      },
+      
+      {  
+         "habilidad" : "python",
+         "nivel": "junior"
+         
+      },
+      {  
+         "habilidad" : "autocad/solid-edge",
+         "nivel": "senior"
+         
+      }
+   ]
+}

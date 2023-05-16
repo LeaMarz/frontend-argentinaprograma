@@ -1,0 +1,15 @@
+  <!-- Hero Section -->
+  <section class="hero" >    
+    <div>
+      <img class="hero-img" [src]="miPortfolio.persona.wallpaper" />
+    </div>     
+  <div><img  class="personal-pic" [src]="miPortfolio.persona.urlFoto" />      
+    <h1>{{miPortfolio.persona.nombre}} {{miPortfolio.persona.apellido}}</h1>
+      <div class="d-flex flex-row">
+        <div class="p-2"><h2 id="text-acercade">{{miPortfolio.persona.acercaDe}}</h2></div>
+        
+      </div>
+    </div>      
+    <div> <input id="edit-acercade" type="text" oninput="myfunction2(this.value)" style="display: none">
+    </div>
+  </section> 

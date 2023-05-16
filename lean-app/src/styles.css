@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+/* Variables */
+:root {
+  --font-family: "Roboto", sans-serf;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  
+  --primary-color: #4756df;
+  --secondary-color: #ff7235;
+  --primary-shadow: #B71C1C;
+  --secondary-shadow: #a17a69;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+  
+}
+
+html {
+  
+  overflow: auto;
+  height: 100%;
+  
+}
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  /* border: 2px solid red; */
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background-color: black;
+  font-family: var(--font-family);
+  overflow: auto;
+  height: 100%;
+  
+}
+
+
+
+
+.icon-card {
+  width: 50px;
+  height: 50px;
+}
+.tarjeta-icono {
+  background-color: black;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
+
+

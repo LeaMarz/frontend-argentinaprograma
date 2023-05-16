@@ -1,0 +1,27 @@
+.edu {
+    background-color: black;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 50px;
+    margin: 50px;
+    position:relative;
+    
+  }
+  
+  .edu h2 {
+    
+    text-align: center;
+    color:#FFCDD2;
+  }
+  
+  .edu p {
+    line-height: var(--line-height);
+    
+    color:#FFCDD2;
+  }
+  
+  .edu-img img{
+   
+    width: 50px;
+    
+  }

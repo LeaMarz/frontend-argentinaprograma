@@ -1,0 +1,34 @@
+
+
+.habilidades {
+  background-color: black;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 50px;
+  margin: 50px;
+  position:relative;
+  }
+  .habilidades {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+    color:#FFCDD2;
+  }
+  
+  
+  .encabezado-habilidad {
+    margin-bottom: 1rem;
+  }
+  
+  .contenedor-habilidad img {
+    padding: 1.25rem;
+  }
+
+  .icon-card {
+    width: 50px;
+    height: 50px;
+  }
+
+  .icono {
+    width: 5.875rem;
+    height: 5.25rem;
+  }

@@ -1,0 +1,72 @@
+.hero {
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+   
+    overflow: auto;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+    flex-direction: column;
+    padding: 40px;
+    border-color: #0062cc;
+    
+  }
+  .hero h2{
+    color:#9FA8DA; 
+  }
+  .hero-img { 
+    width: 100%;
+    border-radius: 3%;
+    z-index: 1; 
+    display: flex;
+    display: inline-block;
+    height: 100%;
+  }
+  h1{
+    color: white;
+  }
+  
+  .personal-pic{  
+    border-radius: 50%;  
+    width: 152px;
+    height: 152px;  
+    display: flex;
+    margin-top:-100px;
+    margin-bottom: 10px;
+    position:relative;
+    overflow: auto;
+  }
+  .pic-edit-1{    
+    margin-bottom: -10px;
+      
+    
+   } 
+    
+     
+  
+  .pic-edit {  
+    display:flex;  
+    float:right;
+   }
+  
+  .bio {  
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+   
+  }
+  
+  .bio h1 {
+    margin-bottom: var(--bottom-margin);
+  }
+  
+  .bio p {
+    line-height: var(--line-height);
+    padding: 0.3rem 0;
+    display: inline-block;
+  }
+  .btn-edit{  
+    float: right;
+  }

@@ -1,0 +1,43 @@
+<!-- More about -->
+<section class="mas-sobre" id="about">
+    <h2>Experiencias</h2>
+    <div class="col-lg-2">
+      <button type="button" class="btn btn-dark" routerLink="/nuevaexp" *ngIf="isLogged">
+          Nueva Experiencia
+      </button>
+  </div>
+    <ul >
+      <li *ngFor="let experiencias of experiencias ">
+        <div class="d-flex justify-content-between">
+          <div>
+            <div><p id="text-acercade">{{experiencias.empresa}}</p></div>
+            <div><p id="text-acercade">{{experiencias.puesto}}</p></div>
+            <div><p id="text-acercade">{{experiencias.inicio | date:"dd-MM-yyyy"}} {{experiencias.fin  | date:"dd-MM-yyyy"}}</p></div>
+            
+          </div>                      
+          <div class="mas-sobre-img"><a [href]="experiencias.url" target="_blank">
+            <img  [src]="experiencias.imagen"/>
+          </a>
+          <td *ngIf="isLogged">
+            <button class="btn btn-light" routerLink="/editexp/{{experiencias.id}}">
+                <i class="bi bi-pencil-fill"></i> EDITAR</button>
+          </td>
+          <td *ngIf="isLogged">
+            <button class="btn btn-danger" (click)="delete(experiencias.id)">
+                <i class="bi bi-trash-fill"></i> BORRAR</button>
+        </div> 
+      </div> 
+      </li>      
+    </ul>
+    
+         
+  
+  </section>
+
+  
+    
+   
+    
+   
+    
+    

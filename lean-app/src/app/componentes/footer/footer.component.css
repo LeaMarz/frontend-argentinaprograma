@@ -1,0 +1,16 @@
+footer {
+    background-color: black;
+    padding: 1.25rem;
+    text-align: center;
+    margin: 2rem 0 0;
+    border-color: #B71C1C;
+    color: antiquewhite;
+  }
+  .desplazarse-hacia-arriba {
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+    width: 3rem;
+  }
+  

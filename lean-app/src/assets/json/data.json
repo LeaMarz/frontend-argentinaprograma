@@ -1,0 +1,60 @@
+{   
+    "bio": [
+      {
+        "Nombre": "Leandro Marzonetto",
+        "position": "Tecnico en Electricidad",
+        "period": "1999 - 2004"
+      }
+      
+    ],
+    "edu": [
+        {
+          "organization": "ETIEC",
+          "position": "Tecnico en Electricidad",
+          "period": "1999 - 2004"
+        },
+        {
+          "organization": "UTN",
+          "position": "Programador JAVA junior",
+          "period": "2020 - 2021"
+        },
+        {
+            "organization": "UTN",
+            "position": "Programador PHTYON junior",
+            "period": "2022"
+          },
+          {
+            "organization": "INTI|Argentina Programa",
+            "position": "Programador Full Stack junior",
+            "period": "2022-2023"
+          }
+      ],   
+    "experience": [
+      {
+        "organization": "Acys Mendoza",
+        "position": "Supervisor",
+        "period": "2014 - presente"
+      },
+      {
+        "organization": "IMPSA",
+        "position": "Proyectista Senior",
+        "period": "2008-2014"
+      }
+    ],
+  
+    "projects": [
+      {
+        "title": "Proyectista",
+        "description": "Dispositivos de Apertura y Cierre de Valvulas BOP Anulares tipo SBC."
+      },
+      {
+        "title": "Supervisor",
+        "description": "Manual de Procedimientos de certificacion de Valvulas tipo BOP."
+      },
+      {
+        "title": "Control de Stock JAVA",
+        "description": "App control de Stock de pañol."
+      }
+    ]
+  }
+  

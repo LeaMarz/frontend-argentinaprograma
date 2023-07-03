@@ -12,7 +12,7 @@ const routes: Routes = [
   {
     path:'login', component:LoginComponent
   },
-  {path:'',redirectTo:'login',pathMatch:'full'},
+  {path:'',redirectTo:'home',pathMatch:'full'},
   { path: 'nuevaexp', component: NewMasSobreComponent},
   { path: 'editexp/:id', component: EditMasSobreComponent}
 ];
